@@ -1,0 +1,35 @@
+package com.ArrayListChallenge
+
+/*
+*/
+
+public class Contact{
+  private String name;
+  private String phoneNumber;
+
+     //constructor for new contact
+
+  public Contact(String phoneNumber, String name){
+     this.name = name;
+     this.phoneNumber = phoneNumber;
+  }
+
+    //getters for field variables
+  
+  public String getName(){
+     return name;
+  }
+
+  public String getPhoneNumber(){
+     return phoneNumber;
+  }
+
+      //create method to create a new contact
+ 
+   public static Contact createContact(String name, String phoneNumber){
+       return new Contact(name, phoneNumber);
+    //this calls the constructor in the Contact object
+   }
+
+ 
+} 
