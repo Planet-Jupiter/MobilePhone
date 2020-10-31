@@ -1,7 +1,5 @@
 package com.ArrayListChallenge
 
-/*
-*/
 
 public class Contact{
   private String name;
@@ -28,8 +26,6 @@ public class Contact{
  
    public static Contact createContact(String name, String phoneNumber){
        return new Contact(name, phoneNumber);
-    //this calls the constructor in the Contact object
+       //this calls the constructor in the Contact class. shortcut
    }
-
- 
 } 
